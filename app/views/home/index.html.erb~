@@ -3,5 +3,3 @@
 <p>Test Rails App for DigitalOcean</p>
 
 <p>Your IP is <%= request.ip %></p>
-
-<p>09.02.2016</p>
