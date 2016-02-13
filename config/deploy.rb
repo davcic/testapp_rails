@@ -1,7 +1,7 @@
 # Change these
-server '46.101.113.60', port: 22, roles: [:web, :app, :db], primary: true
+server '52.36.89.199', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:davcic/testapp_rails.git'
+set :repo_url,        'https://github.com/davcic/rest-api-sample-app-java'
 set :application,     'testapp'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
